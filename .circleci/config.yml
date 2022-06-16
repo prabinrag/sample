@@ -9,6 +9,6 @@ workflows:
     test:
       docker:
         - image: cimg/node:14.13.0
-        steps:
+      steps:
         - checkout
         - run: node --version
